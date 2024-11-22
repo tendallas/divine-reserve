@@ -7,7 +7,8 @@ const nextConfig = {
       fileName: false,
     },
   },
-  output: 'export',
+  output: 'standalone',
+  reactStrictMode: true,
 }
 
 module.exports = nextConfig
